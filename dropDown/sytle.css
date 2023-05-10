@@ -1,0 +1,257 @@
+.task-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20PX;
+    margin-right: 20PX;
+    margin-top: 20px;
+}
+
+.dropdown-option {
+    width: fit-content;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    border: #bbb 1px solid;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.icon {
+    color: #000;
+    height: 16px;
+    width: 16px;
+}
+
+.checkbox-content {
+    height: 20px;
+    width: 20px;
+}
+
+.card-container {
+    border: #bbb 1px solid;
+    border-radius: 10px;
+    width: 800px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.lebel-elements {
+    font-size: 18px;
+    margin: 3px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hedings {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+
+}
+
+.clear-apply-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clear-button {
+    border: none;
+    font-size: 20px;
+}
+
+.apply-butoon {
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline-style: none;
+}
+
+.input-container {
+    height: 30px;
+    width: 100px;
+    outline: none;
+    border: none;
+}
+
+
+/* container-1 */
+.main-container1 {
+    display: none;
+}
+
+
+.container2 {
+    display: none;
+}
+
+.container3 {
+    display: none;
+}
+
+.container4 {
+    display: none;
+}
+
+/* toggle-button */
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+    background-color: #bbb;
+    border-radius: 30px;
+    border: 1px solid gray;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 1px;
+    left: 1px;
+    transition: all 0.5s;
+}
+
+
+/* Checkbox checked effect */
+.checkbox:checked+.toggle::after {
+    left: 12px;
+}
+
+/* Checkbox checked toggle label bg color */
+.checkbox:checked+.toggle {
+    background-color: blue;
+}
+
+.checkbox {
+    display: none;
+}
+
+.check-box-lebel-container {
+    display: flex;
+    align-items: center;
+}
+
+.total-main-check-labels-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.lebel-elements1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 3px;
+    opacity: 0.6;
+}
+.rupee-icon {
+    height: 15px;
+    width: 15px;
+    color: #000;
+    opacity: 0.6;
+}
+
+.button-with-input-rupee {
+    border: 1px #bbb solid;
+    border-radius: 5px;
+}
+
+.button-with-input-rupee:hover {
+    border-color: #000;
+}
+
+.numbers-container {
+    font-size: 18px;
+    color: #bbb;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+#dropdown1 {
+    display: none;
+}
+
+#arrowup1 {
+    display: flex;
+}
+
+#dropdown2 {
+    display: none;
+}
+
+#arrowup2 {
+    display: flex;
+}
+
+#dropdown3 {
+    display: none;
+}
+
+#arrowup3 {
+    display: flex;
+}
+
+#dropdown4 {
+    display: none;
+}
+
+#arrowup4 {
+    display: flex;
+}
+
+.last-container {
+    width: 300px;
+}
+
+.last-button-container {
+    margin-top: 20px;
+}
+
+.alignmeny-arrow-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.last-container2 {
+    width: 400px;
+}
+
+.second-container-margin {
+    position: relative;
+    left: 180px;
+}
+
+.third-container {
+    position: relative;
+    left: 300px;
+}
+
+.fourth-container {
+    position: relative;
+    left: 400px;
+}
